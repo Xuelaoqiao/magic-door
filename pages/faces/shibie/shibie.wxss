@@ -1,0 +1,57 @@
+/* pages/takephoto/takephoto.wxss */
+.takephoto{
+    width: 100%;
+  }
+  
+  .takephoto .camera{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .takephoto camera {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -99;
+  }
+  
+  .takephoto .goBack {
+    color: #1792f0;
+    margin-left: 35rpx;
+    font-size: 35rpx;
+  }
+  
+  .distinguishing image{
+    height: 370rpx;
+    width: 100%;
+  }
+  
+  .progress_bg {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+  }
+  
+  .progress_canvas {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .takephoto .complete {
+    border-top: 1rpx solid #e5e5e5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    color: #1792f0;
+    font-size: 40rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+  }
+  

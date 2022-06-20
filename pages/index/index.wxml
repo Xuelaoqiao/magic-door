@@ -1,0 +1,7 @@
+<view class="main">
+  <image src="/pages/resource/mensuo1.png"  style="position: relative; width: 643rpx; height: 429rpx; display: inline-block; box-sizing: border-box; left: 61rpx; top: 118rpx"></image>
+</view>
+<view class="main">
+  <image class="background" src="/pages/resource/zhuye1.png"  style="position: fixed; left: 0rpx; top: 5rpx; width: 750rpx; height: 1175rpx; display: block; box-sizing: border-box"></image>
+</view>
+<navigator class="navigator" style="position: relative; width: 493rpx; height: 94rpx; display: block; box-sizing: border-box; left: 129rpx; top: 247rpx" url="/pages/faces/shibie/shibie"><button style="position: relative; left: 3rpx; top: 0rpx">进入识别</button></navigator>

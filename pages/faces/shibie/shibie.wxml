@@ -1,0 +1,20 @@
+<view class="main">
+  <image class="background" src="/pages/resource/zhuye1.png"  style="position: fixed; left: 0rpx; top: 5rpx; width: 750rpx; height: 1175rpx; display: block; box-sizing: border-box"></image>
+</view>
+<view class="takephoto">
+  <view class="camera">
+    <canvas class="progress_bg" canvas-id="canvasProgressbg"></canvas>
+    <canvas class="progress_canvas" canvas-id="canvasProgress"></canvas>
+    <camera id='camera' device-position="front" bindinitdone="startdrawCanvas" flash="off" binderror="error">
+      <cover-view class='cameraGai'>
+        <cover-image src='../../images/circle.png' class='cover-image'></cover-image>
+      </cover-view>
+    </camera>
+  </view>
+  <view class="complete" bindtap="complateDis" wx:if="{{complete}}">完成</view>
+  <i-message id="message" />
+</view>
+<view style="position: relative; left: 174rpx; top: 64rpx">正视屏幕，耐心等待</view>
+
+
+
